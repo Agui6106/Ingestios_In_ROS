@@ -1,0 +1,45 @@
+[2.036s] Invoking command in '/home/josea/ros2_ws/src/Challenge02': PYTHONPATH=/home/josea/ros2_ws/build/Challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Challenge02 build --build-base /home/josea/ros2_ws/build/Challenge02/build install --record /home/josea/ros2_ws/build/Challenge02/install.log --single-version-externally-managed install_data
+[2.732s] running egg_info
+[2.734s] creating ../../build/Challenge02/Challenge02.egg-info
+[2.736s] writing ../../build/Challenge02/Challenge02.egg-info/PKG-INFO
+[2.736s] writing dependency_links to ../../build/Challenge02/Challenge02.egg-info/dependency_links.txt
+[2.738s] writing entry points to ../../build/Challenge02/Challenge02.egg-info/entry_points.txt
+[2.738s] writing requirements to ../../build/Challenge02/Challenge02.egg-info/requires.txt
+[2.738s] writing top-level names to ../../build/Challenge02/Challenge02.egg-info/top_level.txt
+[2.741s] writing manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+[2.745s] reading manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+[2.748s] writing manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+[2.750s] running build
+[2.750s] running build_py
+[2.750s] creating /home/josea/ros2_ws/build/Challenge02/build
+[2.751s] creating /home/josea/ros2_ws/build/Challenge02/build/lib
+[2.753s] creating /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+[2.755s] copying Challenge02/dc_motor.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+[2.755s] copying Challenge02/set_point.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+[2.755s] copying Challenge02/__init__.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+[2.756s] copying Challenge02/controller.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+[2.761s] running install
+[2.761s] running install_lib
+[2.766s] creating /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+[2.767s] copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/dc_motor.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+[2.769s] copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/set_point.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+[2.769s] copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/__init__.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+[2.769s] copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/controller.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+[2.771s] byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/dc_motor.py to dc_motor.cpython-310.pyc
+[2.773s] byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/set_point.py to set_point.cpython-310.pyc
+[2.775s] byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/__init__.py to __init__.cpython-310.pyc
+[2.776s] byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/controller.py to controller.cpython-310.pyc
+[2.778s] running install_data
+[2.779s] creating /home/josea/ros2_ws/install/Challenge02/share/ament_index
+[2.780s] creating /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index
+[2.781s] creating /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index/packages
+[2.782s] copying resource/Challenge02 -> /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index/packages
+[2.782s] copying package.xml -> /home/josea/ros2_ws/install/Challenge02/share/Challenge02
+[2.784s] running install_egg_info
+[2.788s] Copying ../../build/Challenge02/Challenge02.egg-info to /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02-0.0.0-py3.10.egg-info
+[2.793s] running install_scripts
+[2.847s] Installing controller script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+[2.847s] Installing dc_motor script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+[2.847s] Installing set_point script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+[2.847s] writing list of installed files to '/home/josea/ros2_ws/build/Challenge02/install.log'
+[2.936s] Invoked command in '/home/josea/ros2_ws/src/Challenge02' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/Challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Challenge02 build --build-base /home/josea/ros2_ws/build/Challenge02/build install --record /home/josea/ros2_ws/build/Challenge02/install.log --single-version-externally-managed install_data

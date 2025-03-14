@@ -1,0 +1,6 @@
+/grupo1/InputSignal:
+  ros__parameters:
+    signal_type: 'sqre'
+    amplitude: 6.0
+    omega: 0.2
+    timer_period: 0.1

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/challenge02/challenge02.egg-info/PKG-INFO
+writing dependency_links to ../../build/challenge02/challenge02.egg-info/dependency_links.txt
+writing entry points to ../../build/challenge02/challenge02.egg-info/entry_points.txt
+writing requirements to ../../build/challenge02/challenge02.egg-info/requires.txt
+writing top-level names to ../../build/challenge02/challenge02.egg-info/top_level.txt
+reading manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+writing manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/launch.py -> /home/josea/ros2_ws/install/challenge02/share/challenge02/launch
+running install_egg_info
+removing '/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/challenge02/challenge02.egg-info to /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+Installing dc_motor script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+Installing plant_test script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+Installing set_point script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+writing list of installed files to '/home/josea/ros2_ws/build/challenge02/install.log'

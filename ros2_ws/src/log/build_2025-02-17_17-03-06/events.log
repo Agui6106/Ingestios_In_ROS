@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (basic_comms) JobQueued: {'identifier': 'basic_comms', 'dependencies': OrderedDict()}
+[0.001007] (challenge01) JobQueued: {'identifier': 'challenge01', 'dependencies': OrderedDict()}
+[0.001048] (my_pack_clas) JobQueued: {'identifier': 'my_pack_clas', 'dependencies': OrderedDict()}
+[0.001083] (basic_comms) JobStarted: {'identifier': 'basic_comms'}
+[0.053891] (challenge01) JobStarted: {'identifier': 'challenge01'}
+[0.101716] (-) TimerEvent: {}
+[0.207221] (-) TimerEvent: {}
+[0.308039] (-) TimerEvent: {}
+[0.409572] (-) TimerEvent: {}
+[0.511550] (-) TimerEvent: {}
+[0.612077] (-) TimerEvent: {}
+[0.712644] (-) TimerEvent: {}
+[0.814438] (-) TimerEvent: {}
+[0.914923] (-) TimerEvent: {}
+[1.016277] (-) TimerEvent: {}
+[1.116903] (-) TimerEvent: {}
+[1.217374] (-) TimerEvent: {}
+[1.317823] (-) TimerEvent: {}
+[1.418262] (-) TimerEvent: {}
+[1.518679] (-) TimerEvent: {}
+[1.619118] (-) TimerEvent: {}
+[1.719772] (-) TimerEvent: {}
+[1.822710] (-) TimerEvent: {}
+[1.923307] (-) TimerEvent: {}
+[2.025986] (-) TimerEvent: {}
+[2.127597] (-) TimerEvent: {}
+[2.228556] (-) TimerEvent: {}
+[2.330006] (-) TimerEvent: {}
+[2.432280] (-) TimerEvent: {}
+[2.534459] (-) TimerEvent: {}
+[2.635881] (-) TimerEvent: {}
+[2.738083] (-) TimerEvent: {}
+[2.840167] (-) TimerEvent: {}
+[2.942774] (-) TimerEvent: {}
+[3.045661] (-) TimerEvent: {}
+[3.147602] (-) TimerEvent: {}
+[3.248748] (-) TimerEvent: {}
+[3.351399] (-) TimerEvent: {}
+[3.453079] (-) TimerEvent: {}
+[3.527019] (challenge01) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/challenge01', 'build', '--build-base', '/home/josea/ros2_ws/src/build/challenge01/build', 'install', '--record', '/home/josea/ros2_ws/src/build/challenge01/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/josea/ros2_ws/src/challenge01', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'josea', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/josea', 'OLDPWD': '/home/josea', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1277', 'SYSTEMD_EXEC_PID': '1601', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4139', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/josea/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'josea', 'JOURNAL_STREAM': '8:12132', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'josea', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/josea-VivoBook-15-ASUS-Laptop-X540BA:@/tmp/.ICE-unix/1410,unix/josea-VivoBook-15-ASUS-Laptop-X540BA:/tmp/.ICE-unix/1410', 'INVOCATION_ID': '1858444bc09043e8a20adbd7807bb66f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FPR112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cb15bf7e-d89f-4495-a34f-6707a485501c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/josea/ros2_ws/src/build/challenge01', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/josea/ros2_ws/src/build/challenge01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages:/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages:/home/josea/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.561975] (basic_comms) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/basic_comms', 'build', '--build-base', '/home/josea/ros2_ws/src/build/basic_comms/build', 'install', '--record', '/home/josea/ros2_ws/src/build/basic_comms/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/josea/ros2_ws/src/basic_comms', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'josea', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/josea', 'OLDPWD': '/home/josea', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1277', 'SYSTEMD_EXEC_PID': '1601', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4139', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/josea/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'josea', 'JOURNAL_STREAM': '8:12132', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'josea', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/josea-VivoBook-15-ASUS-Laptop-X540BA:@/tmp/.ICE-unix/1410,unix/josea-VivoBook-15-ASUS-Laptop-X540BA:/tmp/.ICE-unix/1410', 'INVOCATION_ID': '1858444bc09043e8a20adbd7807bb66f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FPR112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cb15bf7e-d89f-4495-a34f-6707a485501c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/josea/ros2_ws/src/build/basic_comms', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/josea/ros2_ws/src/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages:/home/josea/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.574761] (-) TimerEvent: {}
+[3.677580] (-) TimerEvent: {}
+[3.780519] (-) TimerEvent: {}
+[3.883291] (-) TimerEvent: {}
+[3.985525] (-) TimerEvent: {}
+[4.087837] (-) TimerEvent: {}
+[4.189998] (-) TimerEvent: {}
+[4.291879] (-) TimerEvent: {}
+[4.394555] (-) TimerEvent: {}
+[4.497283] (-) TimerEvent: {}
+[4.599588] (-) TimerEvent: {}
+[4.701509] (-) TimerEvent: {}
+[4.803483] (-) TimerEvent: {}
+[4.905728] (-) TimerEvent: {}
+[5.007592] (-) TimerEvent: {}
+[5.109715] (-) TimerEvent: {}
+[5.211903] (-) TimerEvent: {}
+[5.314269] (-) TimerEvent: {}
+[5.417209] (-) TimerEvent: {}
+[5.467596] (challenge01) StdoutLine: {'line': b'running egg_info\n'}
+[5.472209] (challenge01) StdoutLine: {'line': b'creating ../build/challenge01/challenge01.egg-info\n'}
+[5.472623] (challenge01) StdoutLine: {'line': b'writing ../build/challenge01/challenge01.egg-info/PKG-INFO\n'}
+[5.476024] (challenge01) StdoutLine: {'line': b'writing dependency_links to ../build/challenge01/challenge01.egg-info/dependency_links.txt\n'}
+[5.476405] (challenge01) StdoutLine: {'line': b'writing entry points to ../build/challenge01/challenge01.egg-info/entry_points.txt\n'}
+[5.481783] (challenge01) StdoutLine: {'line': b'writing requirements to ../build/challenge01/challenge01.egg-info/requires.txt\n'}
+[5.482109] (challenge01) StdoutLine: {'line': b'writing top-level names to ../build/challenge01/challenge01.egg-info/top_level.txt\n'}
+[5.482286] (challenge01) StdoutLine: {'line': b"writing manifest file '../build/challenge01/challenge01.egg-info/SOURCES.txt'\n"}
+[5.498291] (challenge01) StdoutLine: {'line': b"reading manifest file '../build/challenge01/challenge01.egg-info/SOURCES.txt'\n"}
+[5.502148] (challenge01) StdoutLine: {'line': b"writing manifest file '../build/challenge01/challenge01.egg-info/SOURCES.txt'\n"}
+[5.503933] (challenge01) StdoutLine: {'line': b'running build\n'}
+[5.504136] (challenge01) StdoutLine: {'line': b'running build_py\n'}
+[5.506313] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/challenge01/build\n'}
+[5.506648] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/challenge01/build/lib\n'}
+[5.507976] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01\n'}
+[5.508717] (challenge01) StdoutLine: {'line': b'copying challenge01/signal_generetor.py -> /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01\n'}
+[5.510302] (challenge01) StdoutLine: {'line': b'copying challenge01/tests.py -> /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01\n'}
+[5.511748] (challenge01) StdoutLine: {'line': b'copying challenge01/proccess.py -> /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01\n'}
+[5.512052] (challenge01) StdoutLine: {'line': b'copying challenge01/__init__.py -> /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01\n'}
+[5.512218] (challenge01) StdoutLine: {'line': b'running install\n'}
+[5.514354] (challenge01) StdoutLine: {'line': b'running install_lib\n'}
+[5.515443] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01\n'}
+[5.518169] (-) TimerEvent: {}
+[5.521159] (challenge01) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01/signal_generetor.py -> /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01\n'}
+[5.521570] (challenge01) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01/tests.py -> /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01\n'}
+[5.521761] (challenge01) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01/proccess.py -> /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01\n'}
+[5.521915] (challenge01) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/challenge01/build/lib/challenge01/__init__.py -> /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01\n'}
+[5.527513] (challenge01) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01/signal_generetor.py to signal_generetor.cpython-310.pyc\n'}
+[5.529727] (challenge01) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01/tests.py to tests.cpython-310.pyc\n'}
+[5.530187] (challenge01) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01/proccess.py to proccess.cpython-310.pyc\n'}
+[5.533995] (challenge01) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01/__init__.py to __init__.cpython-310.pyc\n'}
+[5.534430] (challenge01) StdoutLine: {'line': b'running install_data\n'}
+[5.536796] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/challenge01/share/ament_index\n'}
+[5.537239] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/challenge01/share/ament_index/resource_index\n'}
+[5.538135] (challenge01) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/challenge01/share/ament_index/resource_index/packages\n'}
+[5.538384] (challenge01) StdoutLine: {'line': b'copying resource/challenge01 -> /home/josea/ros2_ws/src/install/challenge01/share/ament_index/resource_index/packages\n'}
+[5.540012] (challenge01) StdoutLine: {'line': b'copying package.xml -> /home/josea/ros2_ws/src/install/challenge01/share/challenge01\n'}
+[5.542817] (challenge01) StdoutLine: {'line': b'copying launch/signal.launch.py -> /home/josea/ros2_ws/src/install/challenge01/share/challenge01\n'}
+[5.545000] (challenge01) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.549467] (basic_comms) StdoutLine: {'line': b'running egg_info\n'}
+[5.552628] (basic_comms) StdoutLine: {'line': b'creating ../build/basic_comms/basic_comms.egg-info\n'}
+[5.553997] (basic_comms) StdoutLine: {'line': b'writing ../build/basic_comms/basic_comms.egg-info/PKG-INFO\n'}
+[5.555783] (basic_comms) StdoutLine: {'line': b'writing dependency_links to ../build/basic_comms/basic_comms.egg-info/dependency_links.txt\n'}
+[5.557771] (basic_comms) StdoutLine: {'line': b'writing entry points to ../build/basic_comms/basic_comms.egg-info/entry_points.txt\n'}
+[5.558153] (challenge01) StdoutLine: {'line': b'Copying ../build/challenge01/challenge01.egg-info to /home/josea/ros2_ws/src/install/challenge01/lib/python3.10/site-packages/challenge01-0.0.0-py3.10.egg-info\n'}
+[5.561256] (basic_comms) StdoutLine: {'line': b'writing requirements to ../build/basic_comms/basic_comms.egg-info/requires.txt\n'}
+[5.561689] (basic_comms) StdoutLine: {'line': b'writing top-level names to ../build/basic_comms/basic_comms.egg-info/top_level.txt\n'}
+[5.562015] (basic_comms) StdoutLine: {'line': b"writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[5.565902] (challenge01) StdoutLine: {'line': b'running install_scripts\n'}
+[5.579040] (basic_comms) StdoutLine: {'line': b"reading manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[5.583272] (basic_comms) StdoutLine: {'line': b"writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[5.586024] (basic_comms) StdoutLine: {'line': b'running build\n'}
+[5.586472] (basic_comms) StdoutLine: {'line': b'running build_py\n'}
+[5.588396] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/basic_comms/build\n'}
+[5.588653] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/basic_comms/build/lib\n'}
+[5.588827] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms\n'}
+[5.591221] (basic_comms) StdoutLine: {'line': b'copying basic_comms/talker.py -> /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms\n'}
+[5.591851] (basic_comms) StdoutLine: {'line': b'copying basic_comms/__init__.py -> /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms\n'}
+[5.592044] (basic_comms) StdoutLine: {'line': b'running install\n'}
+[5.593755] (basic_comms) StdoutLine: {'line': b'running install_lib\n'}
+[5.598406] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms\n'}
+[5.600681] (basic_comms) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms/talker.py -> /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms\n'}
+[5.601099] (basic_comms) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms/__init__.py -> /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms\n'}
+[5.602907] (basic_comms) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc\n'}
+[5.606518] (basic_comms) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/__init__.py to __init__.cpython-310.pyc\n'}
+[5.607909] (basic_comms) StdoutLine: {'line': b'running install_data\n'}
+[5.609796] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index\n'}
+[5.612490] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index\n'}
+[5.613157] (basic_comms) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages\n'}
+[5.613479] (basic_comms) StdoutLine: {'line': b'copying resource/basic_comms -> /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages\n'}
+[5.616532] (basic_comms) StdoutLine: {'line': b'copying package.xml -> /home/josea/ros2_ws/src/install/basic_comms/share/basic_comms\n'}
+[5.616829] (basic_comms) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.619465] (-) TimerEvent: {}
+[5.626782] (basic_comms) StdoutLine: {'line': b'Copying ../build/basic_comms/basic_comms.egg-info to /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info\n'}
+[5.634157] (basic_comms) StdoutLine: {'line': b'running install_scripts\n'}
+[5.719654] (-) TimerEvent: {}
+[5.732173] (challenge01) StdoutLine: {'line': b'Installing proccess script to /home/josea/ros2_ws/src/install/challenge01/lib/challenge01\n'}
+[5.736942] (challenge01) StdoutLine: {'line': b'Installing signal_generetor script to /home/josea/ros2_ws/src/install/challenge01/lib/challenge01\n'}
+[5.741286] (challenge01) StdoutLine: {'line': b"writing list of installed files to '/home/josea/ros2_ws/src/build/challenge01/install.log'\n"}
+[5.808430] (basic_comms) StdoutLine: {'line': b'Installing talker script to /home/josea/ros2_ws/src/install/basic_comms/lib/basic_comms\n'}
+[5.812115] (basic_comms) StdoutLine: {'line': b"writing list of installed files to '/home/josea/ros2_ws/src/build/basic_comms/install.log'\n"}
+[5.820864] (-) TimerEvent: {}
+[5.924928] (-) TimerEvent: {}
+[5.950789] (challenge01) CommandEnded: {'returncode': 0}
+[6.026428] (-) TimerEvent: {}
+[6.029563] (challenge01) JobEnded: {'identifier': 'challenge01', 'rc': 0}
+[6.031510] (my_pack_clas) JobStarted: {'identifier': 'my_pack_clas'}
+[6.055542] (basic_comms) CommandEnded: {'returncode': 0}
+[6.081120] (basic_comms) JobEnded: {'identifier': 'basic_comms', 'rc': 0}
+[6.126447] (-) TimerEvent: {}
+[6.227027] (-) TimerEvent: {}
+[6.327565] (-) TimerEvent: {}
+[6.429425] (-) TimerEvent: {}
+[6.529891] (-) TimerEvent: {}
+[6.632725] (-) TimerEvent: {}
+[6.733321] (-) TimerEvent: {}
+[6.833840] (-) TimerEvent: {}
+[6.934383] (-) TimerEvent: {}
+[7.036927] (-) TimerEvent: {}
+[7.138265] (-) TimerEvent: {}
+[7.238785] (-) TimerEvent: {}
+[7.339457] (-) TimerEvent: {}
+[7.442512] (-) TimerEvent: {}
+[7.542977] (-) TimerEvent: {}
+[7.645431] (-) TimerEvent: {}
+[7.746237] (-) TimerEvent: {}
+[7.846800] (-) TimerEvent: {}
+[7.947307] (-) TimerEvent: {}
+[8.047764] (-) TimerEvent: {}
+[8.149511] (-) TimerEvent: {}
+[8.250125] (-) TimerEvent: {}
+[8.351432] (-) TimerEvent: {}
+[8.453590] (-) TimerEvent: {}
+[8.554205] (-) TimerEvent: {}
+[8.587277] (my_pack_clas) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_pack_clas', 'build', '--build-base', '/home/josea/ros2_ws/src/build/my_pack_clas/build', 'install', '--record', '/home/josea/ros2_ws/src/build/my_pack_clas/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/josea/ros2_ws/src/my_pack_clas', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'josea', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/josea', 'OLDPWD': '/home/josea', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1277', 'SYSTEMD_EXEC_PID': '1601', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4139', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/josea/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'josea', 'JOURNAL_STREAM': '8:12132', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'josea', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/josea-VivoBook-15-ASUS-Laptop-X540BA:@/tmp/.ICE-unix/1410,unix/josea-VivoBook-15-ASUS-Laptop-X540BA:/tmp/.ICE-unix/1410', 'INVOCATION_ID': '1858444bc09043e8a20adbd7807bb66f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FPR112', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cb15bf7e-d89f-4495-a34f-6707a485501c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/josea/ros2_ws/src/build/my_pack_clas', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/josea/ros2_ws/src/build/my_pack_clas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages:/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages:/home/josea/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.656151] (-) TimerEvent: {}
+[8.759732] (-) TimerEvent: {}
+[8.860377] (-) TimerEvent: {}
+[8.960868] (-) TimerEvent: {}
+[9.062308] (-) TimerEvent: {}
+[9.164430] (-) TimerEvent: {}
+[9.264843] (-) TimerEvent: {}
+[9.365356] (-) TimerEvent: {}
+[9.465872] (-) TimerEvent: {}
+[9.568483] (-) TimerEvent: {}
+[9.646718] (my_pack_clas) StdoutLine: {'line': b'running egg_info\n'}
+[9.649146] (my_pack_clas) StdoutLine: {'line': b'creating ../build/my_pack_clas/my_pack_clas.egg-info\n'}
+[9.650991] (my_pack_clas) StdoutLine: {'line': b'writing ../build/my_pack_clas/my_pack_clas.egg-info/PKG-INFO\n'}
+[9.651389] (my_pack_clas) StdoutLine: {'line': b'writing dependency_links to ../build/my_pack_clas/my_pack_clas.egg-info/dependency_links.txt\n'}
+[9.653383] (my_pack_clas) StdoutLine: {'line': b'writing entry points to ../build/my_pack_clas/my_pack_clas.egg-info/entry_points.txt\n'}
+[9.654500] (my_pack_clas) StdoutLine: {'line': b'writing requirements to ../build/my_pack_clas/my_pack_clas.egg-info/requires.txt\n'}
+[9.655090] (my_pack_clas) StdoutLine: {'line': b'writing top-level names to ../build/my_pack_clas/my_pack_clas.egg-info/top_level.txt\n'}
+[9.655262] (my_pack_clas) StdoutLine: {'line': b"writing manifest file '../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'\n"}
+[9.663765] (my_pack_clas) StdoutLine: {'line': b"reading manifest file '../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'\n"}
+[9.667196] (my_pack_clas) StdoutLine: {'line': b"writing manifest file '../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'\n"}
+[9.669210] (-) TimerEvent: {}
+[9.669454] (my_pack_clas) StdoutLine: {'line': b'running build\n'}
+[9.671837] (my_pack_clas) StdoutLine: {'line': b'running build_py\n'}
+[9.672701] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/my_pack_clas/build\n'}
+[9.673605] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/my_pack_clas/build/lib\n'}
+[9.673796] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas\n'}
+[9.674973] (my_pack_clas) StdoutLine: {'line': b'copying my_pack_clas/my_publisher.py -> /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas\n'}
+[9.675153] (my_pack_clas) StdoutLine: {'line': b'copying my_pack_clas/my_subscriber.py -> /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas\n'}
+[9.676904] (my_pack_clas) StdoutLine: {'line': b'copying my_pack_clas/__init__.py -> /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas\n'}
+[9.678935] (my_pack_clas) StdoutLine: {'line': b'copying my_pack_clas/my_pack.py -> /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas\n'}
+[9.682059] (my_pack_clas) StdoutLine: {'line': b'running install\n'}
+[9.682359] (my_pack_clas) StdoutLine: {'line': b'running install_lib\n'}
+[9.682574] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas\n'}
+[9.682718] (my_pack_clas) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas/my_publisher.py -> /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas\n'}
+[9.682854] (my_pack_clas) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas/my_subscriber.py -> /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas\n'}
+[9.682993] (my_pack_clas) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas/__init__.py -> /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas\n'}
+[9.683134] (my_pack_clas) StdoutLine: {'line': b'copying /home/josea/ros2_ws/src/build/my_pack_clas/build/lib/my_pack_clas/my_pack.py -> /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas\n'}
+[9.683283] (my_pack_clas) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_publisher.py to my_publisher.cpython-310.pyc\n'}
+[9.686908] (my_pack_clas) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_subscriber.py to my_subscriber.cpython-310.pyc\n'}
+[9.687583] (my_pack_clas) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/__init__.py to __init__.cpython-310.pyc\n'}
+[9.689088] (my_pack_clas) StdoutLine: {'line': b'byte-compiling /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_pack.py to my_pack.cpython-310.pyc\n'}
+[9.689423] (my_pack_clas) StdoutLine: {'line': b'running install_data\n'}
+[9.689608] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/my_pack_clas/share/ament_index\n'}
+[9.689745] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/my_pack_clas/share/ament_index/resource_index\n'}
+[9.689875] (my_pack_clas) StdoutLine: {'line': b'creating /home/josea/ros2_ws/src/install/my_pack_clas/share/ament_index/resource_index/packages\n'}
+[9.690021] (my_pack_clas) StdoutLine: {'line': b'copying resource/my_pack_clas -> /home/josea/ros2_ws/src/install/my_pack_clas/share/ament_index/resource_index/packages\n'}
+[9.690204] (my_pack_clas) StdoutLine: {'line': b'copying package.xml -> /home/josea/ros2_ws/src/install/my_pack_clas/share/my_pack_clas\n'}
+[9.690459] (my_pack_clas) StdoutLine: {'line': b'copying launch/start_two_nodes.launch.py -> /home/josea/ros2_ws/src/install/my_pack_clas/share/my_pack_clas\n'}
+[9.690601] (my_pack_clas) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.695198] (my_pack_clas) StdoutLine: {'line': b'Copying ../build/my_pack_clas/my_pack_clas.egg-info to /home/josea/ros2_ws/src/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas-0.0.0-py3.10.egg-info\n'}
+[9.699940] (my_pack_clas) StdoutLine: {'line': b'running install_scripts\n'}
+[9.769360] (-) TimerEvent: {}
+[9.788465] (my_pack_clas) StdoutLine: {'line': b'Installing my_pack script to /home/josea/ros2_ws/src/install/my_pack_clas/lib/my_pack_clas\n'}
+[9.789825] (my_pack_clas) StdoutLine: {'line': b'Installing my_publisher script to /home/josea/ros2_ws/src/install/my_pack_clas/lib/my_pack_clas\n'}
+[9.791512] (my_pack_clas) StdoutLine: {'line': b'Installing my_subscriber script to /home/josea/ros2_ws/src/install/my_pack_clas/lib/my_pack_clas\n'}
+[9.792289] (my_pack_clas) StdoutLine: {'line': b"writing list of installed files to '/home/josea/ros2_ws/src/build/my_pack_clas/install.log'\n"}
+[9.870431] (-) TimerEvent: {}
+[9.904702] (my_pack_clas) CommandEnded: {'returncode': 0}
+[9.935358] (my_pack_clas) JobEnded: {'identifier': 'my_pack_clas', 'rc': 0}
+[9.939192] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+publisher_pwm = challenge03.publisher_pwm:main
+

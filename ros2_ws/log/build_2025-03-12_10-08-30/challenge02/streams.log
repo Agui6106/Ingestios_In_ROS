@@ -1,0 +1,24 @@
+[2.945s] Invoking command in '/home/josea/ros2_ws/src/challenge02': PYTHONPATH=/home/josea/ros2_ws/build/challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge02 build --build-base /home/josea/ros2_ws/build/challenge02/build install --record /home/josea/ros2_ws/build/challenge02/install.log --single-version-externally-managed install_data
+[4.404s] running egg_info
+[4.404s] writing ../../build/challenge02/challenge02.egg-info/PKG-INFO
+[4.409s] writing dependency_links to ../../build/challenge02/challenge02.egg-info/dependency_links.txt
+[4.409s] writing entry points to ../../build/challenge02/challenge02.egg-info/entry_points.txt
+[4.410s] writing requirements to ../../build/challenge02/challenge02.egg-info/requires.txt
+[4.410s] writing top-level names to ../../build/challenge02/challenge02.egg-info/top_level.txt
+[4.423s] reading manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+[4.423s] writing manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+[4.423s] running build
+[4.424s] running build_py
+[4.426s] running install
+[4.429s] running install_lib
+[4.443s] running install_data
+[4.443s] running install_egg_info
+[4.458s] removing '/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info' (and everything under it)
+[4.459s] Copying ../../build/challenge02/challenge02.egg-info to /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info
+[4.471s] running install_scripts
+[4.560s] Installing controller script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[4.561s] Installing dc_motor script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[4.564s] Installing plant_test script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[4.564s] Installing set_point script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[4.565s] writing list of installed files to '/home/josea/ros2_ws/build/challenge02/install.log'
+[4.681s] Invoked command in '/home/josea/ros2_ws/src/challenge02' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge02 build --build-base /home/josea/ros2_ws/build/challenge02/build install --record /home/josea/ros2_ws/build/challenge02/install.log --single-version-externally-managed install_data

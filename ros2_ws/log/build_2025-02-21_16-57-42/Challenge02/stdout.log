@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/Challenge02/Challenge02.egg-info
+writing ../../build/Challenge02/Challenge02.egg-info/PKG-INFO
+writing dependency_links to ../../build/Challenge02/Challenge02.egg-info/dependency_links.txt
+writing entry points to ../../build/Challenge02/Challenge02.egg-info/entry_points.txt
+writing requirements to ../../build/Challenge02/Challenge02.egg-info/requires.txt
+writing top-level names to ../../build/Challenge02/Challenge02.egg-info/top_level.txt
+writing manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+reading manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+writing manifest file '../../build/Challenge02/Challenge02.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/josea/ros2_ws/build/Challenge02/build
+creating /home/josea/ros2_ws/build/Challenge02/build/lib
+creating /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+copying Challenge02/dc_motor.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+copying Challenge02/set_point.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+copying Challenge02/__init__.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+copying Challenge02/controller.py -> /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02
+running install
+running install_lib
+creating /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/dc_motor.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/set_point.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/__init__.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+copying /home/josea/ros2_ws/build/Challenge02/build/lib/Challenge02/controller.py -> /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02
+byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/dc_motor.py to dc_motor.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/set_point.py to set_point.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02/controller.py to controller.cpython-310.pyc
+running install_data
+creating /home/josea/ros2_ws/install/Challenge02/share/ament_index
+creating /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index
+creating /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index/packages
+copying resource/Challenge02 -> /home/josea/ros2_ws/install/Challenge02/share/ament_index/resource_index/packages
+copying package.xml -> /home/josea/ros2_ws/install/Challenge02/share/Challenge02
+running install_egg_info
+Copying ../../build/Challenge02/Challenge02.egg-info to /home/josea/ros2_ws/install/Challenge02/lib/python3.10/site-packages/Challenge02-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+Installing dc_motor script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+Installing set_point script to /home/josea/ros2_ws/install/Challenge02/lib/Challenge02
+writing list of installed files to '/home/josea/ros2_ws/build/Challenge02/install.log'

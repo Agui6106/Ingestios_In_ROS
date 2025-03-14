@@ -1,0 +1,6 @@
+[console_scripts]
+controller = challenge02.controller:main
+dc_motor = challenge02.dc_motor:main
+plant_test = challenge02.plant_test:main
+set_point = challenge02.set_point:main
+

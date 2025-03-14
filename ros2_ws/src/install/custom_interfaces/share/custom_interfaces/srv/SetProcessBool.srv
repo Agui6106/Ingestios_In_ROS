@@ -1,0 +1,6 @@
+# Mensajea a enviar
+bool enable
+---
+# Respuesta a recibir
+bool success
+string message

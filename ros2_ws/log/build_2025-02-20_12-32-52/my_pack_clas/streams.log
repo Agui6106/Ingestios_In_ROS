@@ -1,0 +1,23 @@
+[2.051s] Invoking command in '/home/josea/ros2_ws/src/my_pack_clas': PYTHONPATH=/home/josea/ros2_ws/build/my_pack_clas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pack_clas build --build-base /home/josea/ros2_ws/build/my_pack_clas/build install --record /home/josea/ros2_ws/build/my_pack_clas/install.log --single-version-externally-managed install_data
+[2.723s] running egg_info
+[2.726s] writing ../../build/my_pack_clas/my_pack_clas.egg-info/PKG-INFO
+[2.727s] writing dependency_links to ../../build/my_pack_clas/my_pack_clas.egg-info/dependency_links.txt
+[2.728s] writing entry points to ../../build/my_pack_clas/my_pack_clas.egg-info/entry_points.txt
+[2.729s] writing requirements to ../../build/my_pack_clas/my_pack_clas.egg-info/requires.txt
+[2.731s] writing top-level names to ../../build/my_pack_clas/my_pack_clas.egg-info/top_level.txt
+[2.735s] reading manifest file '../../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'
+[2.738s] writing manifest file '../../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'
+[2.738s] running build
+[2.738s] running build_py
+[2.745s] running install
+[2.746s] running install_lib
+[2.751s] running install_data
+[2.753s] running install_egg_info
+[2.756s] removing '/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas-0.0.0-py3.10.egg-info' (and everything under it)
+[2.758s] Copying ../../build/my_pack_clas/my_pack_clas.egg-info to /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas-0.0.0-py3.10.egg-info
+[2.761s] running install_scripts
+[2.821s] Installing my_pack script to /home/josea/ros2_ws/install/my_pack_clas/lib/my_pack_clas
+[2.823s] Installing my_publisher script to /home/josea/ros2_ws/install/my_pack_clas/lib/my_pack_clas
+[2.824s] Installing my_subscriber script to /home/josea/ros2_ws/install/my_pack_clas/lib/my_pack_clas
+[2.825s] writing list of installed files to '/home/josea/ros2_ws/build/my_pack_clas/install.log'
+[2.905s] Invoked command in '/home/josea/ros2_ws/src/my_pack_clas' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/my_pack_clas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pack_clas build --build-base /home/josea/ros2_ws/build/my_pack_clas/build install --record /home/josea/ros2_ws/build/my_pack_clas/install.log --single-version-externally-managed install_data

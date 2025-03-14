@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/challengefinal/challengefinal.egg-info
+writing ../../build/challengefinal/challengefinal.egg-info/PKG-INFO
+writing dependency_links to ../../build/challengefinal/challengefinal.egg-info/dependency_links.txt
+writing entry points to ../../build/challengefinal/challengefinal.egg-info/entry_points.txt
+writing requirements to ../../build/challengefinal/challengefinal.egg-info/requires.txt
+writing top-level names to ../../build/challengefinal/challengefinal.egg-info/top_level.txt
+writing manifest file '../../build/challengefinal/challengefinal.egg-info/SOURCES.txt'
+reading manifest file '../../build/challengefinal/challengefinal.egg-info/SOURCES.txt'
+writing manifest file '../../build/challengefinal/challengefinal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/josea/ros2_ws/build/challengefinal/build
+creating /home/josea/ros2_ws/build/challengefinal/build/lib
+creating /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal
+copying challengefinal/signal_generator.py -> /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal
+copying challengefinal/__init__.py -> /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal
+running install
+running install_lib
+creating /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal
+copying /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal/signal_generator.py -> /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal
+copying /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal/__init__.py -> /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal
+byte-compiling /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal/signal_generator.py to signal_generator.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/josea/ros2_ws/install/challengefinal/share/ament_index
+creating /home/josea/ros2_ws/install/challengefinal/share/ament_index/resource_index
+creating /home/josea/ros2_ws/install/challengefinal/share/ament_index/resource_index/packages
+copying resource/challengefinal -> /home/josea/ros2_ws/install/challengefinal/share/ament_index/resource_index/packages
+copying package.xml -> /home/josea/ros2_ws/install/challengefinal/share/challengefinal
+creating /home/josea/ros2_ws/install/challengefinal/share/challengefinal/launch
+copying launch/launch.py -> /home/josea/ros2_ws/install/challengefinal/share/challengefinal/launch
+creating /home/josea/ros2_ws/install/challengefinal/share/challengefinal/config
+copying config/params.yaml -> /home/josea/ros2_ws/install/challengefinal/share/challengefinal/config
+running install_egg_info
+Copying ../../build/challengefinal/challengefinal.egg-info to /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal-0.0.0-py3.10.egg-info
+running install_scripts
+Installing signal_generator script to /home/josea/ros2_ws/install/challengefinal/lib/challengefinal
+writing list of installed files to '/home/josea/ros2_ws/build/challengefinal/install.log'

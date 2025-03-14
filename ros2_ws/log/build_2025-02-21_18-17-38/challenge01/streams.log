@@ -1,0 +1,42 @@
+[2.097s] Invoking command in '/home/josea/ros2_ws/src/challenge01': PYTHONPATH=/home/josea/ros2_ws/build/challenge01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challenge01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge01 build --build-base /home/josea/ros2_ws/build/challenge01/build install --record /home/josea/ros2_ws/build/challenge01/install.log --single-version-externally-managed install_data
+[2.481s] Traceback (most recent call last):
+[2.481s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse
+[2.487s]     return packaging.version.Version(name)
+[2.488s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+[2.488s]     raise InvalidVersion(f"Invalid version: '{version}'")
+[2.488s] pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: '.egg-info'
+[2.488s] 
+[2.488s] During handling of the above exception, another exception occurred:
+[2.491s] 
+[2.491s] Traceback (most recent call last):
+[2.491s]   File "/home/josea/ros2_ws/src/challenge01/setup.py", line 5, in <module>
+[2.491s]     from setuptools import find_packages, setup
+[2.491s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[2.496s]     import setuptools.version
+[2.496s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.496s]     import pkg_resources
+[2.496s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[2.496s]     def _initialize_master_working_set():
+[2.496s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[2.501s]     f(*args, **kwargs)
+[2.501s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[2.501s]     working_set = WorkingSet._build_master()
+[2.501s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[2.502s]     ws = cls()
+[2.502s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[2.502s]     self.add_entry(entry)
+[2.502s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[2.502s]     for dist in find_distributions(entry, True):
+[2.502s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[2.505s]     path_item_entries = _by_version_descending(filtered)
+[2.505s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[2.513s]     return sorted(names, key=_by_version, reverse=True)
+[2.513s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version
+[2.514s]     return [try_parse(part) for part in parts]
+[2.514s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+[2.514s]     return [try_parse(part) for part in parts]
+[2.514s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in try_parse
+[2.514s]     return packaging.version.Version('0')
+[2.514s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 264, in __init__
+[2.518s]     match = self._regex.search(version)
+[2.518s] KeyboardInterrupt

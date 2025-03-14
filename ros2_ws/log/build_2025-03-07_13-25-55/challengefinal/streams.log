@@ -1,0 +1,25 @@
+[2.733s] Invoking command in '/home/josea/ros2_ws/src/challengefinal': PYTHONPATH=/home/josea/ros2_ws/build/challengefinal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challengefinal build --build-base /home/josea/ros2_ws/build/challengefinal/build install --record /home/josea/ros2_ws/build/challengefinal/install.log --single-version-externally-managed install_data
+[3.932s] running egg_info
+[3.937s] writing ../../build/challengefinal/challengefinal.egg-info/PKG-INFO
+[3.937s] writing dependency_links to ../../build/challengefinal/challengefinal.egg-info/dependency_links.txt
+[3.937s] writing entry points to ../../build/challengefinal/challengefinal.egg-info/entry_points.txt
+[3.938s] writing requirements to ../../build/challengefinal/challengefinal.egg-info/requires.txt
+[3.938s] writing top-level names to ../../build/challengefinal/challengefinal.egg-info/top_level.txt
+[3.941s] reading manifest file '../../build/challengefinal/challengefinal.egg-info/SOURCES.txt'
+[3.945s] writing manifest file '../../build/challengefinal/challengefinal.egg-info/SOURCES.txt'
+[3.946s] running build
+[3.946s] running build_py
+[3.947s] copying challengefinal/signal_generator.py -> /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal
+[3.947s] running install
+[3.948s] running install_lib
+[3.954s] copying /home/josea/ros2_ws/build/challengefinal/build/lib/challengefinal/signal_generator.py -> /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal
+[3.955s] byte-compiling /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal/signal_generator.py to signal_generator.cpython-310.pyc
+[3.958s] running install_data
+[3.959s] copying config/params.yaml -> /home/josea/ros2_ws/install/challengefinal/share/challengefinal/config
+[3.959s] running install_egg_info
+[3.966s] removing '/home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal-0.0.0-py3.10.egg-info' (and everything under it)
+[3.969s] Copying ../../build/challengefinal/challengefinal.egg-info to /home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages/challengefinal-0.0.0-py3.10.egg-info
+[3.969s] running install_scripts
+[4.032s] Installing signal_generator script to /home/josea/ros2_ws/install/challengefinal/lib/challengefinal
+[4.033s] writing list of installed files to '/home/josea/ros2_ws/build/challengefinal/install.log'
+[4.406s] Invoked command in '/home/josea/ros2_ws/src/challengefinal' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/challengefinal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challengefinal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challengefinal build --build-base /home/josea/ros2_ws/build/challengefinal/build install --record /home/josea/ros2_ws/build/challengefinal/install.log --single-version-externally-managed install_data

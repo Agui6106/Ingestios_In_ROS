@@ -1,0 +1,151 @@
+[0.024s] Invoking command in '/home/josea/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/josea/ros2_ws/src/install/my_pack_clas:/home/josea/ros2_ws/src/install/motor_control:/home/josea/ros2_ws/src/install/challenge02:/home/josea/ros2_ws/src/install/challenge01:/home/josea/ros2_ws/src/install/basic_comms:/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/motor_control:/home/josea/ros2_ws/install/challenge02:/home/josea/ros2_ws/install/challenge01:/home/josea/ros2_ws/install/basic_comms:/home/josea/ros2_ws/install/Challenge02:/opt/ros/humble /usr/bin/cmake --build /home/josea/ros2_ws/build/custom_interfaces -- -j2 -l2
+[0.172s] [  3%] Built target custom_interfaces__cpp
+[0.222s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.295s] [ 12%] Built target ament_cmake_python_copy_custom_interfaces
+[0.348s] [ 22%] Built target custom_interfaces__rosidl_typesupport_cpp
+[0.397s] [ 32%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.453s] [ 41%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.509s] [ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[0.560s] [ 61%] Built target custom_interfaces__rosidl_typesupport_c
+[0.610s] [ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[1.467s] running egg_info
+[1.468s] writing custom_interfaces.egg-info/PKG-INFO
+[1.468s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.468s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.474s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.476s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.577s] [ 70%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.624s] [ 70%] Built target custom_interfaces
+[1.673s] [ 74%] Built target custom_interfaces__py
+[1.727s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[1.808s] [ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.884s] [ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.944s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[1.980s] Invoked command in '/home/josea/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/josea/ros2_ws/src/install/my_pack_clas:/home/josea/ros2_ws/src/install/motor_control:/home/josea/ros2_ws/src/install/challenge02:/home/josea/ros2_ws/src/install/challenge01:/home/josea/ros2_ws/src/install/basic_comms:/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/motor_control:/home/josea/ros2_ws/install/challenge02:/home/josea/ros2_ws/install/challenge01:/home/josea/ros2_ws/install/basic_comms:/home/josea/ros2_ws/install/Challenge02:/opt/ros/humble /usr/bin/cmake --build /home/josea/ros2_ws/build/custom_interfaces -- -j2 -l2
+[2.006s] Invoking command in '/home/josea/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/josea/ros2_ws/src/install/my_pack_clas:/home/josea/ros2_ws/src/install/motor_control:/home/josea/ros2_ws/src/install/challenge02:/home/josea/ros2_ws/src/install/challenge01:/home/josea/ros2_ws/src/install/basic_comms:/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/motor_control:/home/josea/ros2_ws/install/challenge02:/home/josea/ros2_ws/install/challenge01:/home/josea/ros2_ws/install/basic_comms:/home/josea/ros2_ws/install/Challenge02:/opt/ros/humble /usr/bin/cmake --install /home/josea/ros2_ws/build/custom_interfaces
+[2.035s] -- Install configuration: ""
+[2.035s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[2.035s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.035s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.035s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.036s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.036s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/set_process_bool.h
+[2.038s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__functions.c
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__functions.h
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__type_support.h
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__struct.h
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[2.039s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.040s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.041s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__rosidl_typesupport_fastrtps_c.h
+[2.041s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.044s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.045s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.045s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.045s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.045s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/set_process_bool.hpp
+[2.047s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.048s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__type_support.hpp
+[2.048s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__struct.hpp
+[2.048s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__traits.hpp
+[2.048s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__builder.hpp
+[2.048s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.049s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.049s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.049s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.049s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.049s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.052s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.053s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.053s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__rosidl_typesupport_introspection_c.h
+[2.053s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__type_support.c
+[2.053s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[2.053s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__rosidl_typesupport_introspection_cpp.hpp
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_process_bool__type_support.cpp
+[2.056s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.057s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[2.057s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[2.057s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[2.057s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[2.058s] -- Installing: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.059s] -- Installing: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.059s] -- Installing: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.059s] -- Installing: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.059s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[2.059s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[2.059s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.060s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[2.060s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_set_process_bool_s.c
+[2.060s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_set_process_bool.py
+[2.060s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[2.060s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.063s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.064s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[2.064s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.064s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[2.064s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.157s] Listing '/home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[2.157s] Listing '/home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[2.173s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.174s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.175s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.177s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[2.178s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/SetProcessBool.idl
+[2.179s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/SetProcessBool.srv
+[2.179s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/SetProcessBool_Request.msg
+[2.179s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/SetProcessBool_Response.msg
+[2.181s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[2.182s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[2.182s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[2.182s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[2.182s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[2.183s] -- Installing: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[2.183s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[2.184s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[2.184s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.184s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.185s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.185s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[2.186s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.187s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.187s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.188s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.189s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[2.190s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[2.192s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.193s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.193s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.194s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.195s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.195s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.196s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.196s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.197s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[2.198s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[2.198s] -- Up-to-date: /home/josea/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[2.736s] Invoked command in '/home/josea/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/josea/ros2_ws/src/install/my_pack_clas:/home/josea/ros2_ws/src/install/motor_control:/home/josea/ros2_ws/src/install/challenge02:/home/josea/ros2_ws/src/install/challenge01:/home/josea/ros2_ws/src/install/basic_comms:/home/josea/ros2_ws/install/my_pack_clas:/home/josea/ros2_ws/install/motor_control:/home/josea/ros2_ws/install/challenge02:/home/josea/ros2_ws/install/challenge01:/home/josea/ros2_ws/install/basic_comms:/home/josea/ros2_ws/install/Challenge02:/opt/ros/humble /usr/bin/cmake --install /home/josea/ros2_ws/build/custom_interfaces

@@ -1,0 +1,5 @@
+[console_scripts]
+my_pack = my_pack_clas.my_pack:main
+my_publisher = my_pack_clas.my_publisher:main
+my_subscriber = my_pack_clas.my_subscriber:main
+

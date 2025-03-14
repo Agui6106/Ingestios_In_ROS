@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/my_pack_clas/my_pack_clas.egg-info
+writing ../../build/my_pack_clas/my_pack_clas.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pack_clas/my_pack_clas.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pack_clas/my_pack_clas.egg-info/entry_points.txt
+writing requirements to ../../build/my_pack_clas/my_pack_clas.egg-info/requires.txt
+writing top-level names to ../../build/my_pack_clas/my_pack_clas.egg-info/top_level.txt
+writing manifest file '../../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_pack_clas/my_pack_clas.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/josea/ros2_ws/build/my_pack_clas/build
+creating /home/josea/ros2_ws/build/my_pack_clas/build/lib
+creating /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas
+copying my_pack_clas/my_publisher.py -> /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas
+copying my_pack_clas/my_subscriber.py -> /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas
+copying my_pack_clas/__init__.py -> /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas
+copying my_pack_clas/my_pack.py -> /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas
+running install
+running install_lib
+creating /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas
+copying /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas/my_publisher.py -> /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas
+copying /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas/my_subscriber.py -> /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas
+copying /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas/__init__.py -> /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas
+copying /home/josea/ros2_ws/build/my_pack_clas/build/lib/my_pack_clas/my_pack.py -> /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas
+byte-compiling /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_publisher.py to my_publisher.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_subscriber.py to my_subscriber.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas/my_pack.py to my_pack.cpython-310.pyc
+running install_data
+creating /home/josea/ros2_ws/install/my_pack_clas/share/ament_index
+creating /home/josea/ros2_ws/install/my_pack_clas/share/ament_index/resource_index
+creating /home/josea/ros2_ws/install/my_pack_clas/share/ament_index/resource_index/packages
+copying resource/my_pack_clas -> /home/josea/ros2_ws/install/my_pack_clas/share/ament_index/resource_index/packages
+copying package.xml -> /home/josea/ros2_ws/install/my_pack_clas/share/my_pack_clas
+running install_egg_info
+Copying ../../build/my_pack_clas/my_pack_clas.egg-info to /home/josea/ros2_ws/install/my_pack_clas/lib/python3.10/site-packages/my_pack_clas-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_pack script to /home/josea/ros2_ws/install/my_pack_clas/lib/my_pack_clas
+Installing my_publisher script to /home/josea/ros2_ws/install/my_pack_clas/lib/my_pack_clas
+writing list of installed files to '/home/josea/ros2_ws/build/my_pack_clas/install.log'

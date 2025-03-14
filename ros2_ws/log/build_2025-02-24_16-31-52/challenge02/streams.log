@@ -1,0 +1,33 @@
+[2.052s] Invoking command in '/home/josea/ros2_ws/src/challenge02': PYTHONPATH=/home/josea/ros2_ws/build/challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge02 build --build-base /home/josea/ros2_ws/build/challenge02/build install --record /home/josea/ros2_ws/build/challenge02/install.log --single-version-externally-managed install_data
+[3.052s] running egg_info
+[3.055s] writing ../../build/challenge02/challenge02.egg-info/PKG-INFO
+[3.055s] writing dependency_links to ../../build/challenge02/challenge02.egg-info/dependency_links.txt
+[3.056s] writing entry points to ../../build/challenge02/challenge02.egg-info/entry_points.txt
+[3.056s] writing requirements to ../../build/challenge02/challenge02.egg-info/requires.txt
+[3.056s] writing top-level names to ../../build/challenge02/challenge02.egg-info/top_level.txt
+[3.061s] reading manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+[3.067s] writing manifest file '../../build/challenge02/challenge02.egg-info/SOURCES.txt'
+[3.067s] running build
+[3.067s] running build_py
+[3.069s] copying challenge02/dc_motor.py -> /home/josea/ros2_ws/build/challenge02/build/lib/challenge02
+[3.069s] copying challenge02/set_point.py -> /home/josea/ros2_ws/build/challenge02/build/lib/challenge02
+[3.069s] copying challenge02/xd.py -> /home/josea/ros2_ws/build/challenge02/build/lib/challenge02
+[3.072s] running install
+[3.072s] running install_lib
+[3.076s] copying /home/josea/ros2_ws/build/challenge02/build/lib/challenge02/dc_motor.py -> /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02
+[3.077s] copying /home/josea/ros2_ws/build/challenge02/build/lib/challenge02/set_point.py -> /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02
+[3.079s] copying /home/josea/ros2_ws/build/challenge02/build/lib/challenge02/xd.py -> /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02
+[3.084s] byte-compiling /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02/dc_motor.py to dc_motor.cpython-310.pyc
+[3.088s] byte-compiling /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02/set_point.py to set_point.cpython-310.pyc
+[3.092s] byte-compiling /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02/xd.py to xd.cpython-310.pyc
+[3.094s] running install_data
+[3.094s] running install_egg_info
+[3.103s] removing '/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info' (and everything under it)
+[3.109s] Copying ../../build/challenge02/challenge02.egg-info to /home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages/challenge02-0.0.0-py3.10.egg-info
+[3.115s] running install_scripts
+[3.187s] Installing controller script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[3.190s] Installing dc_motor script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[3.190s] Installing plant_test script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[3.190s] Installing set_point script to /home/josea/ros2_ws/install/challenge02/lib/challenge02
+[3.190s] writing list of installed files to '/home/josea/ros2_ws/build/challenge02/install.log'
+[3.680s] Invoked command in '/home/josea/ros2_ws/src/challenge02' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/challenge02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/challenge02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge02 build --build-base /home/josea/ros2_ws/build/challenge02/build install --record /home/josea/ros2_ws/build/challenge02/install.log --single-version-externally-managed install_data

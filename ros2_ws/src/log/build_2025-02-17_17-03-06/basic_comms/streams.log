@@ -1,0 +1,37 @@
+[3.562s] Invoking command in '/home/josea/ros2_ws/src/basic_comms': PYTHONPATH=/home/josea/ros2_ws/src/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/josea/ros2_ws/src/build/basic_comms/build install --record /home/josea/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed install_data
+[5.549s] running egg_info
+[5.552s] creating ../build/basic_comms/basic_comms.egg-info
+[5.553s] writing ../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[5.555s] writing dependency_links to ../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[5.557s] writing entry points to ../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[5.560s] writing requirements to ../build/basic_comms/basic_comms.egg-info/requires.txt
+[5.561s] writing top-level names to ../build/basic_comms/basic_comms.egg-info/top_level.txt
+[5.561s] writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[5.578s] reading manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[5.582s] writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[5.585s] running build
+[5.587s] running build_py
+[5.587s] creating /home/josea/ros2_ws/src/build/basic_comms/build
+[5.588s] creating /home/josea/ros2_ws/src/build/basic_comms/build/lib
+[5.590s] creating /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[5.591s] copying basic_comms/talker.py -> /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[5.591s] copying basic_comms/__init__.py -> /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms
+[5.592s] running install
+[5.593s] running install_lib
+[5.598s] creating /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[5.600s] copying /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms/talker.py -> /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[5.600s] copying /home/josea/ros2_ws/src/build/basic_comms/build/lib/basic_comms/__init__.py -> /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[5.602s] byte-compiling /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc
+[5.606s] byte-compiling /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms/__init__.py to __init__.cpython-310.pyc
+[5.607s] running install_data
+[5.609s] creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index
+[5.612s] creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index
+[5.612s] creating /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages
+[5.613s] copying resource/basic_comms -> /home/josea/ros2_ws/src/install/basic_comms/share/ament_index/resource_index/packages
+[5.616s] copying package.xml -> /home/josea/ros2_ws/src/install/basic_comms/share/basic_comms
+[5.616s] running install_egg_info
+[5.626s] Copying ../build/basic_comms/basic_comms.egg-info to /home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[5.633s] running install_scripts
+[5.808s] Installing talker script to /home/josea/ros2_ws/src/install/basic_comms/lib/basic_comms
+[5.811s] writing list of installed files to '/home/josea/ros2_ws/src/build/basic_comms/install.log'
+[6.055s] Invoked command in '/home/josea/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/josea/ros2_ws/src/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/josea/ros2_ws/src/build/basic_comms/build install --record /home/josea/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed install_data

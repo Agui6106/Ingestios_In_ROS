@@ -1,0 +1,46 @@
+[2.009s] Invoking command in '/home/josea/ros2_ws/src/motor_control': PYTHONPATH=/home/josea/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/josea/ros2_ws/build/motor_control/build install --record /home/josea/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[2.690s] running egg_info
+[2.694s] creating ../../build/motor_control/motor_control.egg-info
+[2.694s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[2.694s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[2.694s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[2.695s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[2.695s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[2.695s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[2.700s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[2.702s] adding license file 'LICENSE'
+[2.702s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[2.702s] running build
+[2.703s] running build_py
+[2.705s] creating /home/josea/ros2_ws/build/motor_control/build
+[2.705s] creating /home/josea/ros2_ws/build/motor_control/build/lib
+[2.705s] creating /home/josea/ros2_ws/build/motor_control/build/lib/motor_control
+[2.705s] copying motor_control/dc_motor.py -> /home/josea/ros2_ws/build/motor_control/build/lib/motor_control
+[2.705s] copying motor_control/set_point.py -> /home/josea/ros2_ws/build/motor_control/build/lib/motor_control
+[2.706s] copying motor_control/__init__.py -> /home/josea/ros2_ws/build/motor_control/build/lib/motor_control
+[2.708s] running install
+[2.708s] running install_lib
+[2.712s] creating /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[2.712s] copying /home/josea/ros2_ws/build/motor_control/build/lib/motor_control/dc_motor.py -> /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[2.714s] copying /home/josea/ros2_ws/build/motor_control/build/lib/motor_control/set_point.py -> /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[2.714s] copying /home/josea/ros2_ws/build/motor_control/build/lib/motor_control/__init__.py -> /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[2.715s] byte-compiling /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/dc_motor.py to dc_motor.cpython-310.pyc
+[2.717s] byte-compiling /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/set_point.py to set_point.cpython-310.pyc
+[2.719s] byte-compiling /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc
+[2.719s] running install_data
+[2.720s] creating /home/josea/ros2_ws/install/motor_control/share/ament_index
+[2.720s] creating /home/josea/ros2_ws/install/motor_control/share/ament_index/resource_index
+[2.720s] creating /home/josea/ros2_ws/install/motor_control/share/ament_index/resource_index/packages
+[2.720s] copying resource/motor_control -> /home/josea/ros2_ws/install/motor_control/share/ament_index/resource_index/packages
+[2.723s] copying package.xml -> /home/josea/ros2_ws/install/motor_control/share/motor_control
+[2.723s] creating /home/josea/ros2_ws/install/motor_control/share/motor_control/launch
+[2.723s] copying launch/motor_2_launch.py -> /home/josea/ros2_ws/install/motor_control/share/motor_control/launch
+[2.723s] copying launch/motor_3_launch.py -> /home/josea/ros2_ws/install/motor_control/share/motor_control/launch
+[2.723s] copying launch/motor_launch.py -> /home/josea/ros2_ws/install/motor_control/share/motor_control/launch
+[2.724s] running install_egg_info
+[2.730s] Copying ../../build/motor_control/motor_control.egg-info to /home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[2.730s] running install_scripts
+[2.791s] Installing dc_motor script to /home/josea/ros2_ws/install/motor_control/lib/motor_control
+[2.791s] Installing set_point script to /home/josea/ros2_ws/install/motor_control/lib/motor_control
+[2.794s] writing list of installed files to '/home/josea/ros2_ws/build/motor_control/install.log'
+[2.885s] Invoked command in '/home/josea/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/josea/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/josea/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/josea/ros2_ws/build/motor_control/build install --record /home/josea/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data
